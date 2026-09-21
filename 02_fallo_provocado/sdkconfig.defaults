@@ -1,0 +1,7 @@
+# Destino de compilación del curso.
+CONFIG_IDF_TARGET="esp32s3"
+
+# El manejador de fallos imprime el volcado y se detiene, en lugar de
+# reiniciar. Así el volcado se queda en pantalla el tiempo que haga falta
+# para leerlo en clase, sin que lo desplace el arranque siguiente.
+CONFIG_ESP_SYSTEM_PANIC_PRINT_HALT=y

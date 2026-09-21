@@ -1,0 +1,18 @@
+# Todo lo que genera la compilación: se puede regenerar entero.
+build/
+managed_components/
+dependencies.lock
+
+# Configuración generada del proyecto. Lo que se versiona es sdkconfig.defaults.
+sdkconfig
+sdkconfig.old
+
+# Ajustes locales del editor: llevan rutas de la máquina de cada uno.
+.vscode/
+.clangd
+
+# Salidas del ensayo que se guardan como plan B (ver _plan_b/README.md).
+_plan_b/*.txt
+
+# El plan B no se publica
+_plan_b/
